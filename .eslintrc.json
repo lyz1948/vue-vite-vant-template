@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true,
+    "commonjs": true,
+    "vue/setup-compiler-macros": true
+  },
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:vue/vue3-essential",
+    "eslint:recommended",
+    "@vue/prettier"
+  ],
+  "parser": "vue-eslint-parser", //定义ESLint的解析器
+  "rules": {
+      "semi": ["error", "always"],
+      "quotes": ["error", "double"]
+  }
+}
